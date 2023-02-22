@@ -1,0 +1,15 @@
+version: "3"
+services:
+  ############ users SERVICES module container ############
+  user-services:
+    container_name: user-services
+    build:
+      context: ./user-services
+      dockerfile: Dockerfile
+    image: node:18.7
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./user-services:/usr/src
+      - /usr/src/node_modules
+  
