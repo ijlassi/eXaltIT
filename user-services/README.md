@@ -95,3 +95,17 @@ Mettre rapidement en place une API sans passer par de framework haut-niveau, et 
 * Le candidat `DOIT` respecter la stack technique qui lui est demandée.
 
 
+
+
+# Améliration faite dans cette kata : 
+
+* Containerisation:
+    - Dockerfile générant une image pour l'API.
+
+* Tests
+    - Couverture de test Jest
+    - Lancement de la test-suite via un script npm ou bash
+
+* Documentation / Interface
+    - Specification des routes en format Swagger
+    - Ajout d'un front swagger pour faciliter le testing manuel des routes

@@ -10,6 +10,6 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./user-service:/usr/src
+      - ./user-services:/usr/src
       - /usr/src/node_modules
   
